@@ -11,5 +11,8 @@
 		<projectUrl>https://github.com/civicsource/json</projectUrl>
 		<licenseUrl>https://github.com/civicsource/json/blob/master/LICENSE</licenseUrl>
 		<tags>json converters geography enums utility</tags>
+		<dependencies>
+			<dependency id="Archon.Json" version="$version$" />
+		</dependencies>
 	</metadata>
 </package>

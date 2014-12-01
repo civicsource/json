@@ -56,6 +56,12 @@
     <None Include="packages.config" />
     <None Include="Properties\Enums.nuspec" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Core\Core.csproj">
+      <Project>{e695757e-a41a-47f2-b106-8a9e0f5c688d}</Project>
+      <Name>Core</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(ProjectDir)..\common.targets" />
 </Project>
